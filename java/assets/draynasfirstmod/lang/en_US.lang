@@ -1,0 +1,15 @@
+item.oStick.name=Obsidian Stick
+item.oBrick.name=Obsidian Brick
+item.rStick.name=Rainbow Stick
+item.rFragment.name=Rainbow Fragment
+item.pDiamond.name=Pinkaline Crystal
+item.dIron.name=Dark Iron Ingot
+item.pOrb.name=Pinkaline Orb
+tile.RaiBlock.name=Rainbow Block
+tile.PCrystal.name=Pinkaline
+tile.DIronOre.name=Dark Iron Ore
+tile.NetherDIronOre.name=Nether Dark Iron Ore
+
+itemGroup.BlockTab=Drayna's Blocks
+itemGroup.ItemTab=Drayna's Items
+itemGroup.ToolTab=Drayna's Tools
