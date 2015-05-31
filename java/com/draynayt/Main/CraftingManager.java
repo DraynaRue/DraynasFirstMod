@@ -23,7 +23,8 @@ public class CraftingManager {
 		GameRegistry.addRecipe(new ItemStack(MItems.rFragment, 9), new Object[]{"   "," X ","   ", 'X',Blocks.glass});
 		GameRegistry.addRecipe(new ItemStack(Items.saddle, 1), new Object[]{"XXX","Z Z","   ",'X',Items.leather,'Z',Items.iron_ingot});
 		GameRegistry.addRecipe(new ItemStack(Items.saddle, 1), new Object[]{"XXX","Z Z","   ",'X',Items.leather,'Z',MItems.dIron});
-		GameRegistry.addRecipe(new ItemStack(Items.flint_and_steel,1), new Object[]{"X  "," Z ","   ",'X',Items.flint,'Z',MItems.dIron});
+		GameRegistry.addRecipe(new ItemStack(Items.flint_and_steel, 1), new Object[]{"X  "," Z ","   ",'X',Items.flint,'Z',MItems.dIron});
+		GameRegistry.addRecipe(new ItemStack(Items.blaze_rod, 1), new Object[]{"X  ","X  ","   ",'X',Items.blaze_powder});
 	}
 	public static void addSmeltingRec(){
 		GameRegistry.addSmelting(MBlocks.RaiBlock, new ItemStack( MItems.rFragment, 5), 20.0f);
@@ -31,5 +32,6 @@ public class CraftingManager {
 		GameRegistry.addSmelting(MBlocks.DIronOre, new ItemStack( MItems.dIron, 1), 20.0f);
 		GameRegistry.addSmelting(MBlocks.NetherDIronOre, new ItemStack(MBlocks.DIronOre, 2), 20.0f);
 		GameRegistry.addSmelting(Items.rotten_flesh, new ItemStack(Items.leather, 1), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NetherBlazeOre, new ItemStack(Items.blaze_powder, 4), 20.0f);
 	}
 }

@@ -55,6 +55,7 @@ public class DrayOre implements IWorldGenerator {
 
 	private void generateNether(Random random, int chunkX, int chunkZ, World world) {
 		addOre(MBlocks.NetherDIronOre, Blocks.netherrack, random, world, chunkX, chunkZ, 5, 100, 10, 20, 20);
+		addOre(MBlocks.NetherBlazeOre, Blocks.netherrack, random, world, chunkX, chunkZ, 5, 100, 10, 20, 20);
 		
 	}
 
