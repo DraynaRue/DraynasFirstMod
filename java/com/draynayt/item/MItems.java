@@ -14,7 +14,7 @@ public class MItems {
 		registerItem();
 	}
 	
-	public static Item oStick, oBrick, rStick, rFragment, pDiamond, dIron, pOrb;
+	public static Item oStick, oBrick, rStick, rFragment, pDiamond, dIron, pOrb, bDiamond;
 	
 	public static void initializeItem(){
 		oStick = new Item().setUnlocalizedName("oStick").setCreativeTab(MCreativeTabs.tabItems).setTextureName(RefStrings.MODID + ":oStick");
@@ -24,6 +24,7 @@ public class MItems {
 		pDiamond = new Item().setUnlocalizedName("pDiamond").setCreativeTab(MCreativeTabs.tabItems).setTextureName(RefStrings.MODID + ":pDiamond");
 		dIron = new Item().setUnlocalizedName("dIron").setCreativeTab(MCreativeTabs.tabItems).setTextureName(RefStrings.MODID + ":dIron");
 		pOrb = new Item().setUnlocalizedName("pOrb").setCreativeTab(MCreativeTabs.tabItems).setTextureName(RefStrings.MODID + ":pOrb");
+		bDiamond = new Item().setUnlocalizedName("bDiamond").setCreativeTab(MCreativeTabs.tabItems).setTextureName(RefStrings.MODID + ":bDiamond");
 	}
 	
 	public static void registerItem(){
@@ -34,5 +35,6 @@ public class MItems {
 		GameRegistry.registerItem(pDiamond, pDiamond.getUnlocalizedName());
 		GameRegistry.registerItem(dIron, dIron.getUnlocalizedName());
 		GameRegistry.registerItem(pOrb, pOrb.getUnlocalizedName());
+		GameRegistry.registerItem(bDiamond, bDiamond.getUnlocalizedName());
 	}
 }

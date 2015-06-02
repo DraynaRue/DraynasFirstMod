@@ -25,6 +25,7 @@ public class CraftingManager {
 		GameRegistry.addRecipe(new ItemStack(Items.saddle, 1), new Object[]{"XXX","Z Z","   ",'X',Items.leather,'Z',MItems.dIron});
 		GameRegistry.addRecipe(new ItemStack(Items.flint_and_steel, 1), new Object[]{"X  "," Z ","   ",'X',Items.flint,'Z',MItems.dIron});
 		GameRegistry.addRecipe(new ItemStack(Items.blaze_rod, 1), new Object[]{"X  ","X  ","   ",'X',Items.blaze_powder});
+		GameRegistry.addRecipe(new ItemStack(MItems.bDiamond, 1), new Object[]{" X ","XZX"," X ",'X',Items.blaze_powder,'Z',Items.diamond});
 	}
 	public static void addSmeltingRec(){
 		GameRegistry.addSmelting(MBlocks.RaiBlock, new ItemStack( MItems.rFragment, 5), 20.0f);
