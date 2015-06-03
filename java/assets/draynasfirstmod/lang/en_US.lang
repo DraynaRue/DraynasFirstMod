@@ -12,6 +12,7 @@ tile.PCrystal.name=Pinkaline
 tile.DIronOre.name=Dark Iron Ore
 tile.NetherDIronOre.name=Nether Dark Iron Ore
 tile.NetherBlazeOre.name=Blaze Ore
+tile.FrostStone.name=Froststone
 
 itemGroup.BlockTab=Drayna's Blocks
 itemGroup.ItemTab=Drayna's Items

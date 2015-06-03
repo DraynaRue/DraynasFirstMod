@@ -50,6 +50,7 @@ public class DrayOre implements IWorldGenerator {
 	private void generateOverworld(Random random, int chunkX, int chunkZ, World world) {
 		addOre(MBlocks.PCrystal, Blocks.stone, random, world, chunkX, chunkZ, 5, 100, 10, 20, 20);
 		addOre(MBlocks.DIronOre, Blocks.stone, random, world, chunkX, chunkZ, 5, 100, 10, 20, 20);
+		addOre(MBlocks.FrostStone, Blocks.stone, random, world, chunkX, chunkZ, 85, 130, 10, 20, 20);
 		
 	}
 
